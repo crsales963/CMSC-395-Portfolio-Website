@@ -262,6 +262,7 @@ body {
 
 .contact{
   display: grid;
+  padding-bottom: 3rem;
 }
 
 .contact_card{
@@ -270,11 +271,14 @@ body {
   display: grid;
   gap: 0em;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .contact_image{
   background-image: url(images/headshot.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .contact_text{
